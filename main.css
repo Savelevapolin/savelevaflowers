@@ -1,0 +1,312 @@
+body {
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.top-menu li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #D2691E;
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+
+}
+.top-menu li a:hover::after {
+    transform: scale(1);
+}
+
+.content {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    right: 300px;
+    padding-bottom: 120px;
+    text-align: left;
+    color: #696969;
+}
+
+.navbar form {
+    margin-left:100px;
+}
+
+.container-sm {
+    width: 70%;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.cfs {
+    font-size: 100%;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.image-1 {
+    width: 350px;
+    height: 250px;
+    border: none;
+}
+.container-ms {
+    width: 80%;
+
+}
+
+.container-2 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/bg_city.jpg);
+    background-size: 100%;
+}
+
+.rv {
+    padding-left: 25%;
+    padding-top: 8%;
+    padding-right: 20%;
+}
+
+.cvt {
+    color: white;
+    text-align: center;
+}
+
+.crs {
+    height: 400px;
+    width: 100%;
+}
+
+.hed{
+    background-color: rgb(164, 250, 221);
+}
+
+.baton {
+    width: 80px;
+    height: 40px;
+    background: #ffa9ec;
+}
+.btn-primary{
+
+    background-color: #ffa9ec;;
+    color: black;
+    border: none;
+}
+.btn-primary:hover,
+
+.btn-primary:focus,
+
+.btn-primary:visited{
+
+    background-color: #ffa9ec;;
+
+    color: black;
+
+}
+.tr_button_1{
+    box-shadow: 0 5px 0px #444444;
+    transition-duration: 0.1s;
+}
+
+.tr_button_1:hover {
+
+    box-shadow: 0 1px 0px #000000;
+}
+
+.baton_1 {
+    width: 150px;
+    height: 40px;
+    background: #ffa9ec;;
+}
+.img_2{
+    width: 40px;
+    height: 40px;
+}
+.img_3{
+    width: 160px;
+    height: 80px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 1px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 1px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.img_4{
+    width: 120px;
+    height: 80px;
+}
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+.baton_4{
+    width: 150px;
+    height: 40px;
+
+    background: #ffa9ec;;
+}
+
+.baton_5{
+    width: 150px;
+    height: 80px;
+
+    background: #ffa9ec;;
+}
+.h_pad{
+    margin-top: 8%;
+}
+
+.animate__fadeInRight{
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
+.baton_6 {
+    width: 150px;
+    height: 40px;
+
+    background: #ffa9ec;;
+}
+.text_color{
+    color: rgb(160, 253, 206);
+}
+.text_color_bunner{
+    color: rgb(252, 185, 97);
+}
+.bg_color{
+    background-color: rgb(149, 149, 255);
+}
+
+@media screen and (max-width:1200px)
+
+{
+
+.baton_5{
+    width: auto;
+}
+
+}
+
+
+
+@media screen and (max-width:992px)
+
+{
+
+    .container-sm {
+        width: 100%;
+    }
+    .baton_4{
+        width: 100px;
+    }
+    .h_pad{
+        margin-top: 23%;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px)
+
+{
+
+ .container-fluid{
+     display: none;
+ }
+    .hr_r{
+        display: none;
+    }
+    .image-1{
+        width: 200px;
+        height: 200px;
+    }
+    .container-2{
+        width: 100%;
+        height: 300px;
+        background-image: url(img/bg_city.jpg);
+        background-size: 200%;
+    }
+    .container-sm {
+        width: 70%;
+    }
+    .con_s{
+        display: block;
+    }
+    .s_me{
+        height: 400px;
+    }
+    .na_s{
+        align-items: center;
+    }
+    .baton_5{
+        width: 150px;
+    }
+    .baton_1 {
+        width: 130px;
+    }
+    .baton_6 {
+        width: 130px;
+    }
+}
+
+
+
+@media screen and (max-width:576px)
+
+{
+.cl_1{
+    display: none;
+}
+    .img_c{
+        height: 180px;
+    }
+    .baton_1 {
+        width: 110px;
+    }
+    .im_s{
+        display: none;
+    }
+    .img_s{
+        width: 130px;
+        height: 200px;
+    }
+    .f_s{
+        width: 200px;
+    }
+
+    .c_s{
+        margin-right: 5%;
+    }
+
+}
+
+
+@media screen and (max-width:363px)
+
+{
+    .cl_1{
+        display: none;
+    }
+    .img_c{
+        height: 180px;
+    }
+    .b_s{
+        width: 200px;
+    }
+    .im_s{
+        display: none;
+    }
+}
